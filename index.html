@@ -1,0 +1,30 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Drum Machine</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body tabindex="0" class="flex justify-center items-center h-screen bg-zinc-50">
+    <div class="bg-indigo-200 min-w-80 w-80 h-auto rounded-xl shadow-md p-5 font-bold text-3xl text-slate-200 flex flex-col gap-5" id="drum-machine">
+      <h1 class="text-center text-indigo-950">Drum Machine</h1>
+      <div class="flex gap-5 flex-wrap"id="pad-bank">
+        <button class="drum-pad bg-indigo-600 w-[5rem] h-[5rem] flex justify-center items-center rounded-md shadow-md " id="q">Q<audio class="clip" id="Q" src="https://cdn.freecodecamp.org/curriculum/drum/Heater-1.mp3"></audio></button>
+        <button class="drum-pad bg-indigo-600 w-[5rem] h-[5rem] flex justify-center items-center rounded-md shadow-md " id="w">W<audio class="clip" id="W" src="https://cdn.freecodecamp.org/curriculum/drum/Heater-2.mp3"></audio></button>
+  <button class="drum-pad bg-indigo-600 w-[5rem] h-[5rem] flex justify-center items-center rounded-md shadow-md " id="e">E<audio class="clip" id="E" src="https://cdn.freecodecamp.org/curriculum/drum/Heater-3.mp3"></audio></button>
+    <button class="drum-pad bg-indigo-600 w-[5rem] h-[5rem] flex justify-center items-center rounded-md shadow-md " id="a">A<audio class="clip" id="A" src="https://cdn.freecodecamp.org/curriculum/drum/Heater-4_1.mp3"></audio></button>
+        <button class="drum-pad bg-indigo-600 w-[5rem] h-[5rem] flex justify-center items-center rounded-md shadow-md " id="s">S<audio class="clip" id="S" src="https://cdn.freecodecamp.org/curriculum/drum/Heater-6.mp3"></audio></button>
+        <button class="drum-pad bg-indigo-600 w-[5rem] h-[5rem] flex justify-center items-center rounded-md shadow-md" id="d">D<audio class="clip"id="D" src="https://cdn.freecodecamp.org/curriculum/drum/Dsc_Oh.mp3"></audio></button>
+        <button class="drum-pad bg-indigo-600 w-[5rem] h-[5rem] flex justify-center items-center rounded-md shadow-md " id="z">Z<audio class="clip" id="Z" src="https://cdn.freecodecamp.org/curriculum/drum/Kick_n_Hat.mp3"></audio></button>
+        <button class="drum-pad bg-indigo-600 w-[5rem] h-[5rem] flex justify-center items-center rounded-md shadow-md " id="x">X<audio class="clip" id="X" src="https://cdn.freecodecamp.org/curriculum/drum/RP4_KICK_1.mp3"></audio></button>
+        <button class="drum-pad bg-indigo-600 w-[5rem] h-[5rem] flex justify-center items-center rounded-md shadow-md hover:bg-indigo-500" id="c">C<audio class="clip" id="C" src="https://cdn.freecodecamp.org/curriculum/drum/Cev_H2.mp3"></audio></button>
+      </div>
+      <div class="w-3xs h-10 bg-indigo-500 rounded-md shadow-md flex justify-center items-center p-1">
+        <p id="display" class="text-xl"></p>
+        </div>
+    
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
+
